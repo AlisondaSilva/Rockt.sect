@@ -1,0 +1,94 @@
+body {
+
+    background-color: #2C2B3D;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+/*Alinhamento do cabeçalho*/
+header {
+    margin: 70px 90px 100px;
+    width: 1083px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Alinhamento dos links*/
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    list-style: none;
+}
+
+/*Estilização dos links*/
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'JetBrains Mono';
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+/*Um hover para os link*/
+a:hover {
+    opacity: 1;
+}
+
+/*Alinhamento do conteúdo principal*/
+main {
+    margin-inline: 99px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+    text-align: center;
+}
+
+/*Estilização e alinhamentos dos textos*/
+h1 {
+    font-family: 'JetBrains Mono';
+    font-weight: 700;
+    color: white;
+    font-size: 36px;
+    line-height: 40px;
+
+    margin-bottom: 60px;
+}
+
+span {
+    color: #00BFA6;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #C2C2C2;
+    margin-bottom: 40px;
+}
+
+/*Alinhamento do rodapé*/
+footer {
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 58px;
+}
+
+/*Config da linha*/
+#line {
+    width: 568px;
+    border: 1px solid #00BFA6;
+    margin-inline: auto;
+
+}
+
+/*Incone do cadeado*/
+#cadeado {
+    position: fixed;
+    left: 30px;
+    bottom: 35px;
+}
